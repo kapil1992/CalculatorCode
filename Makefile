@@ -1,5 +1,6 @@
 all:
 	gcc Calculator.c -o calculator
+	gcc stringLength.c -o stringLength
 
 clean:
-	rm calculator
+	rm calculator stringLength
